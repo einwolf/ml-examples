@@ -13,7 +13,7 @@
             "justMyCode": true
         },
         {
-            "name": "Python: gpucheck1",
+            "name": "Python: pytorch gpucheck1",
             "type": "python",
             "request": "launch",
             "console": "integratedTerminal",
@@ -22,7 +22,7 @@
             "program": "${workspaceFolder}/pytorch/gpucheck1/gpucheck1.py"
         },
         {
-            "name": "Python: mnist1",
+            "name": "Python: pytorch mnist1",
             "type": "python",
             "request": "launch",
             "console": "integratedTerminal",
@@ -32,13 +32,23 @@
             "args": ["--save-model"]
         },
         {
-            "name": "Python: qmnist1",
+            "name": "Python: pytorch qmnist1",
             "type": "python",
             "request": "launch",
             "console": "integratedTerminal",
             "justMyCode": true,
             "cwd": "${workspaceFolder}/pytorch/qmnist1",
             "program": "${workspaceFolder}/pytorch/qmnist1/main.py",
+            "args": ["--save-model"]
+        },
+        {
+            "name": "Python: pytorch fashion_mnist1",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/pytorch/fashion_mnist1",
+            "program": "${workspaceFolder}/pytorch/fashion_mnist1/main.py",
             "args": ["--save-model"]
         }
     ]
