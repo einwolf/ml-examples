@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: gpucheck1",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/pytorch/gpucheck1",
+            "program": "${workspaceFolder}/pytorch/gpucheck1/gpucheck1.py"
+        },
+        {
+            "name": "Python: mnist1",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/pytorch/mnist1",
+            "program": "${workspaceFolder}/pytorch/mnist1/main.py",
+            "args": ["--save-model"]
+        },
+        {
+            "name": "Python: qmnist1",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/pytorch/qmnist1",
+            "program": "${workspaceFolder}/pytorch/qmnist1/main.py",
+            "args": ["--save-model"]
+        }
+    ]
+}
