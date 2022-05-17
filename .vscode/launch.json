@@ -50,6 +50,16 @@
             "cwd": "${workspaceFolder}/pytorch/fashion_mnist1",
             "program": "${workspaceFolder}/pytorch/fashion_mnist1/main.py",
             "args": ["--save-model"]
+        },
+        {
+            "name": "Python: pytorch cifar10-1",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/pytorch/cifar10-1",
+            "program": "${workspaceFolder}/pytorch/cifar10-1/Cifar10-ex1.py",
+            "args": []
         }
     ]
 }
