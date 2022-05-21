@@ -1,2 +1,4 @@
 dataset
 *.pt
+*.pth
+.ipynb_checkpoints
