@@ -62,6 +62,16 @@
             "args": []
         },
         {
+            "name": "Python: pytorch mnistgan1/mnist_train",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/pytorch/mnistgan1",
+            "program": "${workspaceFolder}/pytorch/mnistgan1/mnist_train.py",
+            "args": []
+        },
+        {
             "name": "Python: pytorch mnistgan2/mnistgan2",
             "type": "python",
             "request": "launch",
