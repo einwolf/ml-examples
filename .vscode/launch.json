@@ -60,6 +60,26 @@
             "cwd": "${workspaceFolder}/pytorch/cifar10-1",
             "program": "${workspaceFolder}/pytorch/cifar10-1/Cifar10-ex1.py",
             "args": []
+        },
+        {
+            "name": "Python: pytorch mnistgan2/mnistgan2",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/pytorch/mnistgan2",
+            "program": "${workspaceFolder}/pytorch/mnistgan2/mnistgan2.py",
+            "args": []
+        },
+        {
+            "name": "Python: pytorch mnistgan2/fashionmnistgan2",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/pytorch/mnistgan2",
+            "program": "${workspaceFolder}/pytorch/mnistgan2/fashionmnistgan2.py",
+            "args": []
         }
     ]
 }
